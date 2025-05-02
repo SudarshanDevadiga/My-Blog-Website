@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+}
+
+header {
+  background: #1ba4fa;
+  color: #060101;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbQKCiAaD48ZbhyqMtAzkj3zXYCtjpRL8KRg&s') no-repeat center center/cover;
+  color: black (0, 0, 0);
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+main {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+  background: #eee;
+  padding: 1rem;
+  margin-left: 1rem;
+  position: sticky;
+  top: 1rem;
+  height: fit-content;
+}
+
+article {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  background: #f0f8ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+footer {
+  background: #1ba4fa;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
